@@ -28,16 +28,11 @@ end
 
 def retrieve_element_from_index(array, index_number)
       array = ["wow", "I", "am", "really", "learning", "arrays!"]
-      index_number = 2
+      array[2]
 end
 
 def retrieve_first_element_from_array(array)
-  describe "retrieve_first_element_from_array" do
-    it "takes in an argument of an array and returns the first element stored in the array" do
       array = ["wow", "I", "am", "really", "learning", "arrays!"]
-      expect(retrieve_first_element_from_array(array)).to eq("wow")
-    end
-  end
 end
 
 def retrieve_last_element_from_array(array)
